@@ -1,0 +1,50 @@
+*{margin: 0;
+padding: 0;}
+
+
+ 
+/* body의 배경색 변경 */
+body {
+  background-color: #9cb8d7;
+}
+
+/* h1태그의 글씨색 변경 */
+h1 {
+  color: #0b6fb8;
+}
+.blue{color:blue}
+
+#title{ color: red}
+
+p {
+  line-height: 1.6;
+}
+
+
+/* h1태그의 글씨색 변경 */
+
+.card {border: 1px solid;
+}
+#intro{
+    border-top: 2px solid;
+}
+ .nav {
+    display: flexbox;
+    justify-content:space-between ;
+    align-content:center ;
+    padding:16px 20px ;
+    background-color: aliceblue;
+    border: 1px solid  whitesmoke;
+    margin-bottom: 16px 20px;
+
+ }
+
+ logo { 
+  font-weight: bold;
+   color: #333
+ }
+
+ .menu a { 
+  text-decoration: none;
+  color: aqua;
+ }
