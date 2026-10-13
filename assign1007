@@ -1,0 +1,29 @@
+2번 
+-모든 p  태그: p
+-클래스가 highlight 인 요소 전부: .hightlight
+-아이디가 header인 요소 하나: #header
+-type 속성이 password 인 input 요소: input[type="pasword"]
+
+3번 
+아래 두 규칙의 차이를 한줄로 설명하세요
+
+nav a {color: red;} nav 안의 모든 요소, a
+
+
+nav > a {color:blue;} nav의 바로 아래 자식 a요소
+
+4번
+<h1 id="title class="blue"> ㅐ소개</h1>
+
+.blue {color blue; }
+#title {color: red; }
+  답:  빨강으로 보임  #title 이 .blue 보다 우선 순위임
+
+5번 
+마우스에 올렸을 떄만 적용한다:  hover
+부모의 첫번째 자식에만 적용된다: first-child 
+요소의 내용 앞에 무언가를 덧붙인다: before
+
+
+
+ 

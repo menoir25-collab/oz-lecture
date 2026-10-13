@@ -1,0 +1,44 @@
+
+    <!doctype html>
+    <html>
+        <meta charset="'UTF=8"/>
+        <title> input</title>
+        </head>
+        <body>
+            <h1>input 실습</h1>
+            <form action="signup" method="post"
+            <label> for="userid"</label>
+            <input type="text"
+            id="userid"
+            name="userid"
+            placeholder="영문과 숫자 4자 아성"
+
+        <div> 
+            <h2> 여러 서냐택지 제공 </h2>
+            <div>
+                <h3>checkbox - 여러개를 함께 고를 때 <h3>
+                <input type="checkbox" id="tos" name="agree" value="free"
+            />
+            <div>
+              <h2>type> 연습  <h2>
+                <input type 
+              </div>
+              <div>
+                <h3> slect - 목록에서 라나를 고를 때 </h3>
+                <label for="city" 지역</label>
+                    <select>
+                        <option value='선택하세요'</option>>
+                            
+
+
+
+
+
+            <buttom type="sumit"> 가입</buttton>
+            </body>form>
+
+         
+          />
+        
+        
+    

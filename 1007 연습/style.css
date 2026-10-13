@@ -1,0 +1,36 @@
+/* todo 1. : 모든 요소의 기본 여백 없애기 */
+
+* {  margin: 0
+   padding: 0 }
+
+   /*전체 배경과 글씨색 */
+
+   body {
+       background-color: #719;
+       color: #333;
+   }
+   /* 제목 색*/
+   h1{ 
+    color: #923;
+}
+ 
+/*class 는 card인 모든요소 */
+
+.card{
+    border: 1px solid #766;
+    padding: 20px;
+} 
+ /*nav 바로 아래 a 태그만 */
+
+ nav > a {
+    text-decoration: none;
+ }
+
+ /* 링크에 마우스를 올렷을 떄 */
+
+ a :hoevr {
+    color: #0b6tb8;
+ }
+
+
+
