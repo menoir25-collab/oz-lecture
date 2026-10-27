@@ -1,0 +1,37 @@
+01.배열 메소드 고그기
+a. 값마다 같은일을하고 돌려주는값은 undefined :foreach
+b. 값을 하나하나 바꾼 새 배열을 돌려준다: map
+c. 조건이 true 인 값만 담은 새배열을 돌려준다: filter
+d. 값을 모아 한값으로 만든다: reduce
+e. 조건이 맞는 첫 답하나를 돌려주고 없으면 undefined다: find
+f. 조건에 맞는 답 하나라도 있으면 true다: some
+g. 모든 값이 조건에 맞아야 true: every
+
+02. 원래 배열이 바뀔까?
+메서드를 누르고 원래배열이 바뀌면o ,그대로면 x
+a. push: x
+b. map: o 같은 개수의 새배열
+c. filter: o 고른 값의 새배열
+d. splice: x
+e. reduce: 마지막 누적값
+f. slice:o
+
+03. 실행결과  
+a.
+console.log(nums.map((n) => n * 2));
+[6,16,10,20]
+
+b.[8,5,10]
+c.26
+d. 8
+9.true
+
+04.객체 배열에서 꺼내기
+console.log(books.map((b) => b.title).length);              :3
+ console.log(books.filter((b) => b.sold >= 100).length);    :2
+ console.log(books.find((b) => b.price < 20000).title);     :HTML 첫걸음
+ console.log(books.reduce((sum, b) => sum + b.sold, 0));    :350
+ console.log(books.filter((b) => b.price > 30000));         []
+
+ 05. reduce 차례따라가기
+ 디버깅에서 스쿠프가 뜨질않아 중단점 이용 불가 ㅜ

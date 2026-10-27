@@ -1,0 +1,20 @@
+1.a.let
+  b.const
+ c.var
+
+2. a. synthetaxerror
+   b. reference error
+   c. typeerror 
+
+3.tyoe"28":"string"
+  type 28:"nember"
+  typeof true: "boolean"
+  typeof null:"object"
+
+  4.9002500
+  11500원
+
+  5. console
+    Sources
+    network
+    element

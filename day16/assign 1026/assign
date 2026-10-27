@@ -1,0 +1,34 @@
+1.a,요소에 이벤트이름과 실행할 함수르 연결한다:addEventListner
+b.요소를 눌렀을때 일어나는 이벤트:click
+c.입력칸이 바뀔떄마다 (한글짜씩 바뀌는이벤트):input
+d.값을 바꾼 뒤 칸을 벗어날떄마다  한글짜씩바뀌는 이벤트: change
+e.폼을 제출할떄 form에서 일어나는 이벤트: summit
+f.누른키를 떌 때 일어나는 이벤트: keyup
+g.이벤트의 기본동작 (폼의 새로 고침을) 막는이벤트: preventdDfault
+h.이벤트가 일어난요소:event target
+i.키보드 이벤트에서 그 키의 이름: keyup
+
+2.a. 0번을 눌렀습니다
+  b. 3번 눌렀습니다
+  c. 1번 눌렀습니다
+  d. 안바뀜
+  e. 0번 눌렀습니다
+
+  3.a. input age 2
+    b. 2
+    c. input age 0
+    d. enter 키를 떗을 때 keyup 함수가  찍는값:backspace
+    e. typeof event.target.value의 결과값: string
+
+    4. a.안열림 x
+       b.o
+       c.o
+       d.o
+       e.x
+    5.a.통과
+      b. 이름을 입력해 주세요
+      c.인원은 1~4명
+      d.이름을 입력해 주세요
+      e.인원은 1~4명
+
+      note: 3번풀이,내일 과제 리뷰때 더 알아보겠습니다.

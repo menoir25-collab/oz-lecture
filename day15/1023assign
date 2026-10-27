@@ -1,0 +1,64 @@
+01. a.아이디요소를 하나찾는다: getElementById
+    b.css선택자에 맞는 요소 하나를 찾는다: querySelector
+    c.css 선택자에 맞는 요소를 모두찾아 nodelist로 돌려준다: querySelectorAll
+    d.넣은 글을 태그까지 글자 그대로 보여준다:inner HTML
+    e. 넣은 글속에 태그를 해석해서 보여준다: textcontent
+    f.class 륿 붙히고 (add)하고 떼고(remove) 확인(contain):classLIst
+    g.새요소를 만든다. 아직 화면에는 없다:creatElement
+    h.자식요소붙이기:appendChild
+    i.바식요소지우기:removeChild
+02. 요소찾기
+    <h1 id="title">오즈 베이커리</h1>
+<ul class="menu">
+  <li>소금빵</li>
+  <li class="new">크루아상</li>
+  <li class="new">바게트</li>
+</ul>
+
+a.//document.getElementById("title").textContent :
+const titleEl = document.getElementById("title");
+console.log(titleEl);
+console.log(titleEl.textContent);
+
+b. //document.querySelector(".new").textContent :
+const new = document.querySelector(".new");
+console.log(new);
+
+c. //document.querySelectorAll(".new").length :
+const newEls = document.querySelectorAll(".new");
+console.log(document.querySelectorAll(".new").length);
+
+
+d. //document.querySelectorAll(".menu li").length :
+const menuEls = document.querySelectorAll(".menu li");
+console.log(document.querySelectorAll(".menu li").length);
+
+
+e. //document.getElementById("#title") :
+const titleEl = document.getElementById("#title");
+console.log(titleEl);
+
+
+f. //document.querySelectorAll(".sale").length :
+const saleEls = document.querySelectorAll(".sale");
+console.log(document.querySelectorAll(".sale").length);
+
+03.정답
+document.querySelector("#a").textContent = msg;<b>오늘</b> 휴무
+document.querySelector("#b").innerHTML = msg; 오늘 휴무
+
+04.//ⓐ forEach가끝났을 때 화면의 li 개수 :
+console.log(listEl.querySelectorAll("li").length);
+//ⓑ forEach가 끝났을 때 마지막 li의 글자 :
+console.log(items[2].textContent);
+//ⓒ removeChild로 지운 li의 글자 :
+console.log(removed);
+//ⓓ 마지막 줄까지 실행한 뒤 화면의 li 개수 :
+
+//ⓔ forEach 안의 listEl.appendChild(itemEl); 줄만 지우면, forEach가 끝났을 때 화면의 li 개수 :
+
+*note:식을 쓰는게 불확실 하여 주말공부 후 과제로 돌아오겠습니다.
+
+
+
+
