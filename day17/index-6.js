@@ -28,12 +28,13 @@ cancelBtn.addEventListener("click", () => {
 let count = 0;
 const intervalId = setInterval(() => {
   count += 1;
-  console.log(`${count}초`);
-  if (count == 5) {
+  console.log(`${count}번`);
+  if (count == 3) {
     clearInterval(intervalId);
-    console.log("멈춤");
   }
 }, 1000);
+console.log("시작");
+  
 
 // 콜백함수
 function sayHello(name, callback) {
@@ -76,13 +77,7 @@ async function makeCoffee() {
 
 makeCoffee();
 
-// trycatch
-async function fetch∑ith erorr() {
 
-    await n´∑ Promise((resolve,reject)=>{
-
-    })
-}
 // try catch 오류 처리
 async function fetchWithError() {
   try {
