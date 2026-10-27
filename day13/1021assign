@@ -1,0 +1,39 @@
+01.배열 메서드
+a. 배열 끝에 값을 넣는다: push
+b. 배열끝에 값을 빼서 돌려준다: pop
+c 배열 앞에 거 값을넣어준다: unshift
+d.배열 앞의 값을 빼서 돌려준다: shift
+e.원하는자리에 값을지우거나 끼워 넣는다: splice
+f.일부를 잘라 낸 새 배열: slice
+02.json 일까아닐까? 오류 or not
+a. { "name": "김오즈","age":"28"}:오류
+b. {name: "김오즈"}: not
+c. {"name": "김오즈"}:오류
+d. {"name":"김오즈",}:오류
+e. {{id:1}, {"id":2}}:not
+03. a.3
+    b.계란
+    c.(2) ["버터", "계란"]
+    d.["빵"]
+    e. ["버터"]
+    f. 콘솔에 안떠서 디버그로 답확인했습니다
+04.
+   const user = {
+    name: "김오즈", 
+    age: 28,
+    "phone number":"010-7654-2981",
+    address: { city: "서울", zip: "07653" },
+    likes: ("커피", "코딩"),}
+
+console.log(user.name); "김오즈"
+console.log(user.["phone number]); "010-7654-2981"
+console.log(user.likes[1]); "코딩"
+console.log(user.address, city);"서울"
+console.log(user.email);undefined
+.05 배열일까  갹체일까?
+a. 배열
+b. 객체
+c. 배열
+d. 객체
+e. 배열
+
