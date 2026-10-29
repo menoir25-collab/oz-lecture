@@ -255,14 +255,16 @@
 //   },
 // };
 
-// shop.hello();
-// const hello = shop.hello;
-// hello();
-// console.log(Math.round(shop.rating));
+shop.hello();
+const hello = shop.hello;
+hello();
+console.log(Math.round(shop.rating));
 
-// const day = new Date(2026, 9, 29);
-// console.log(day.getMonth());
-// console.log(day.getMonth() + 1);
+const day = new Date(2026, 9, 29);
+console.log(day.getMonth());
+console.log(day.getMonth() + 1);
+
+//
 
 const prices = [12000, 8000, 15000, 5000];
 
