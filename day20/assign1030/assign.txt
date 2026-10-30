@@ -29,7 +29,7 @@ sessionStorage.setItem("step", "2");
 04.
 ⓐ show(3)을 부르면 찍히는 글 :3
 ⓑ show(300)을 부르면 찍히는 글 :찾는 글이 없습니다
-ⓒ 인터넷 연결을 끊고 show(3)을 부르면 찍히는 글 :
+ⓒ 인터넷 연결을 끊고 show(3)을 부르면 찍히는 글 :???
 ⓓ 5~9번 줄(if 블록)을 지우고 show(300)을 부르면 찍히는 글 :Uncaught SyntaxError: Unexpected token
 ⓔ 10번 줄을 return response.text();로 바꾸고 show(3)을 부르면 찍히는 글 : Uncaught ReferenceError: show is
  not defined
