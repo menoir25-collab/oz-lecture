@@ -6,8 +6,37 @@
 ⓔ 저장소의 값을 모두 지우는 메서드 :removeItem
 ⓕ 배열 · 객체를 저장하기 전에 JSON 글자로 바꾸는 함수 :jsonStringify
 ⓖ 꺼낸 JSON 글자를 다시 배열 · 객체로 바꾸는 함수 :jsonParse
-ⓗ 상태 코드가 200번대이면 true인 응답의 속성 :reponse.ok                      
+ⓗ 상태 코드가 200번대이면 true인 응답의 속성 :response.ok                      
 
 02.
+          a.string
+VM117:8   b. 31
+VM117:9   c.  모카
+VM117:10  d.[object Object]
+VM117:11  e. null
 
+03.
+localStorage.setItem("theme", "dark");
+sessionStorage.setItem("step", "2");
 
+ⓐ 새로고침한 뒤 localStorage.getItem("theme")의 값 : dark
+ⓑ 새로고침한 뒤 sessionStorage.getItem("step")의 값 :uncaught ReferenceError: sessionStorage is not defined
+    at <anonymous>:1:1
+ⓒ 같은 주소를 새 탭으로 열고, 그 탭에서 sessionStorage.getItem("step")의 값 :'2'
+ⓓ 그 새 탭에서 localStorage.getItem("theme")의 값 :"dark"
+ⓔ 처음 탭을 닫았다가 같은 주소를 다시 열고 sessionStorage.getItem("step")의 값 :null
+
+04.
+ⓐ show(3)을 부르면 찍히는 글 :3
+ⓑ show(300)을 부르면 찍히는 글 :찾는 글이 없습니다
+ⓒ 인터넷 연결을 끊고 show(3)을 부르면 찍히는 글 :
+ⓓ 5~9번 줄(if 블록)을 지우고 show(300)을 부르면 찍히는 글 :Uncaught SyntaxError: Unexpected token
+ⓔ 10번 줄을 return response.text();로 바꾸고 show(3)을 부르면 찍히는 글 : Uncaught ReferenceError: show is
+ not defined
+
+05.
+결과 없음
+불러오는 중…
+ 2개
+ 다시 시도
+ 결과 없음
